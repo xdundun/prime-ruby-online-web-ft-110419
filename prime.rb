@@ -7,5 +7,7 @@ i = 0
   while i < number
     if number % i == 0
       return false
-  end
+    else
+      i +=1
+    end
 end
